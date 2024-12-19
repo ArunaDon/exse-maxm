@@ -18,7 +18,7 @@ jobs :
         - name: Install dependencies
           run : npm ci
         - name: Test code
-          run : npm run ltest   
+          run : npm run test   
  deploy : 
     runs-on: ubuntu-latest
     steps:
